@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+h3 {
+  background-color: #F6511D;
+  color: #445E93;
+  font-family: 'Archivo Black', 'Arial', sans-serif;
+  padding-left: 10px;
+  margin-bottom: -13px;
+  border-top: 10px double;
+  border-bottom: 10px double;
+}
+
+h2 {
+  background-color: #F6511D;
+  color: #445E93;
+  font-family: 'Archivo Black', 'Arial', sans-serif;
+  font-size: 2em;
+  padding-left: 10px;
+  line-height: 1.6;
+  margin-bottom: -13px;
+  border-top: 10px double;
+  border-bottom: 10px double;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #445E93;
+}
+
+p {
+  background-color: #F7F0F0;
+  color: #18A999;
+  font-size: 20px;
+  font-family: 'Balsamiq Sans', 'Courier New', cursive;
+  padding: 10px;
+}
+
+.logo-box {
+  background-color: #F7F0F0;
+  border-radius: 45px 45px 0 0;  
+  padding: 0.5em;
+  border: 3px solid #18A999;  
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 110px auto;
+}
+
+nav a {
+  font-size: 1.1em;
+}
+
+nav {
+  background-color: #F6511D;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  margin: 15px; 
+}
+
+nav a:link {
+  color: #F7F0F0
+}
+
+nav a:visited {
+  color: #18A999;
+}
+
+nav a:hover {
+  color: #F7F0F0;
+  background-color: #445E93;
+  text-decoration: none;
+}
+
+.banner-box img {
+  width: 100%;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.home-headline-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.home-paragraph-1 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  margin: 0;
+}
+
+.home-right-img {
+  grid-column: 4 / 6;
+  grid-row: 1 / 3;
+  height: 335.55px;
+}
+
+.home-left-img {
+  grid-column: 1 / 3;
+  grid-row: 3 / 5;
+}
+
+.home-headline-2 {
+  grid-column: 3 / 6;
+  grid-row: 3 / 4;
+}
+
+.home-paragraph-2 {
+  grid-column: 3 / 6;
+  grid-row: 4 / 5;
+  margin: 0;
+}
+
+.home-paragraph-3 {
+  text-align: center;
+  grid-column: 1 / 6;
+  grid-row: 6 / 7;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer p {
+  text-align: left;
+  grid-column: 1;
+  max-height: 55px;
+}
+
+.social {
+  text-align: right;
+  grid-column: 2;
+}
+
+footer div a {
+  padding-right: 5px;
+  max-height: 55px;
+}
+
+.home-left-img,
+.home-right-img {
+  background-color: #F7F0F0;
+  border: 2px solid #18A999; 
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;  
+}  
+
+.home-left-img img,
+.home-right-img img{
+  height: 100%;  
+}
+
+/* Start CSS for About Our Rivers Page */
+
+.banner-box-1 img, .banner-box-2 img, .banner-box-3 img {
+  width: 97%;
+  background-color: #F7F0F0;
+  border: 2px solid #18A999; 
+  padding: 10px;
+  box-shadow: 5px 5px 5px black; 
+}
+
+.rivers-headline-1, .rivers-headline-2, .rivers-headline-3 {
+  text-align: center;
+}
+
+.rivers-paragraph-1, .rivers-paragraph-2, .rivers-paragraph-3 {
+  text-align: center;
+}
+
+/* Start CSS for Rates and Dates Page 8 */
+
+.ratesdates-dates-1, .ratesdates-dates-2, .ratesdates-dates-3, .ratesdates-dates-4, .ratesdates-dates-5, .ratesdates-dates-6 {
+  list-style: none;
+  background-color: #F7F0F0;
+  color: #18A999;
+  font-size: 20px;
+  font-family: 'Balsamiq Sans', 'Courier New', cursive;
+  padding: 10px;
+}
+
+.action-1 button, .action-2 button, .action-3 button {
+    line-height: 2em;
+    width: 10em;
+    background-color: #F6511D;
+    font-size: 1.2em;
+    color: #445E93;
+    text-align: center;
+    font-family: 'Archivo Black', 'Arial', sans-serif;
+}
+
+.ratesdates-left-img, .ratesdates-right-img, .ratesdates-right-img-2 {
+  background-color: #F7F0F0;
+  border: 2px solid #18A999; 
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;  
+} 
+
+.ratesdates-left-img img, .ratesdates-right-img img, .ratesdates-right-img-2 img {
+  height: 100%;
+}
+
+.ratesdates-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;
+}
+
+.ratesdates-headline-1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.ratesdates-subheadline-1 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  margin: 0;
+}
+
+.ratesdates-rate-1 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  margin: 0;
+}
+
+.ratesdates-subheadline-2 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin: 0;
+}
+
+.ratesdates-dates-1 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  margin: 0;
+}
+
+.ratesdates-headline-2 {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+}
+
+.ratesdates-subheadline-3 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  margin: 0;
+}
+
+.ratesdates-rate-2 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  margin: 0;
+}
+
+.ratesdates-subheadline-4 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  margin: 0;
+}
+
+.ratesdates-dates-2 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  margin: 0;
+}
+
+.ratesdates-right-img {
+  grid-column: 5 / 7;
+  grid-row: 1 / 4;
+}
+      /* start next row in grid */
+
+.ratesdates-left-img {
+  grid-column: 1 / 3;
+  grid-row: 5 / 8;
+}
+
+.ratesdates-headline-3 {
+  grid-column: 3 / 5;
+  grid-row: 5 / 6;
+}
+
+.ratesdates-subheadline-5 {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+  margin: 0;
+}
+
+.ratesdates-rate-3 {
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
+  margin: 0;
+}
+
+.ratesdates-subheadline-6 {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+  margin: 0;
+}
+
+.ratesdates-dates-3 {
+  grid-column: 4 / 5;
+  grid-row: 7 / 8;
+  margin: 0;
+}
+
+.ratesdates-headline-4 {
+  grid-column: 5 / 7;
+  grid-row: 5 / 6;
+}
+
+.ratesdates-subheadline-7 {
+  grid-column: 5 / 6;
+  grid-row: 6 / 7;
+  margin: 0;
+}
+
+.ratesdates-rate-4 {
+  grid-column: 5 / 6;
+  grid-row: 7 / 8;
+  margin: 0;
+}
+
+.ratesdates-subheadline-8 {
+  grid-column: 6 / 7;
+  grid-row: 6 / 7;
+  margin: 0;
+}
+
+.ratesdates-dates-4 {
+  grid-column: 6 / 7;
+  grid-row: 7 / 8;
+  margin: 0;
+}
+    /* Start next row in grid */
+
+.ratesdates-headline-5 {
+  grid-column: 1 / 3;
+  grid-row: 9 / 10;
+}
+
+.ratesdates-subheadline-9 {
+  grid-column: 1 / 2;
+  grid-row: 10 / 11;
+  margin: 0;
+}
+
+.ratesdates-rate-5 {
+  grid-column: 1 / 2;
+  grid-row: 11 / 12;
+  margin: 0;
+}
+
+.ratesdates-subheadline-10 {
+  grid-column: 2 / 3;
+  grid-row: 10 / 11;
+  margin: 0;
+}
+
+.ratesdates-dates-5 {
+  grid-column: 2 / 3;
+  grid-row: 11 / 12;
+  margin: 0; 
+}
+
+.ratesdates-headline-6 {
+  grid-column: 3 / 5;
+  grid-row: 9 / 10;
+}
+
+.ratesdates-subheadline-11 {
+  grid-column: 3 / 4;
+  grid-row: 10 / 11;
+  margin: 0;
+}
+
+.ratesdates-rate-6 {
+  grid-column: 3 / 4;
+  grid-row: 11 / 12;
+  margin: 0;
+}
+
+.ratesdates-subheadline-12 {
+  grid-column: 4 / 5;
+  grid-row: 10 / 11;
+  margin: 0;
+}
+
+.ratesdates-dates-6 {
+  grid-column: 4 / 5;
+  grid-row: 11 / 12;
+  margin: 0;
+}
+
+.ratesdates-right-img-2 {
+  grid-column: 5 / 7;
+  grid-row: 9 / 12;
+}
+
+.furthur-info {
+  text-align: center;
+  grid-column: 1 / 7;
+  grid-row: 12 / 13;
+}
+
+@media screen and (max-width: 550px) {
+  .home-grid {
+    display: block;
+  }
+}

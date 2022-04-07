@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Media Card Component Assignment</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      img {
+        max-width: 100%;
+      }
+
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        background-color: white;
+        overflow: hidden;
+      }
+
+      body {
+        font-family: Helvetica;
+      }
+
+      p {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      footer {
+        display: grid;
+        grid-template-columns: 50px 50px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+      }
+
+      .viewButton {
+        justify-self: end;
+      }
+
+      span {
+        justify-self: end;
+        color: #888;
+      }
+
+      button {
+        line-height: 2em;
+        background-color: white;
+        font-family: Helvetica;
+        color: #888;
+        border-color: #888;
+        border: 1px solid;
+      }
+
+      .viewButton button {
+        border-radius: 3px 0 0 3px;
+      }
+
+      .editButton button {
+        border-radius: 0 3px 3px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" alt="Random Pictures" />
+      <p>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little big longer.
+      </p>
+      <footer>
+        <form class="viewButton">
+          <button type="button">View</button>
+        </form>
+        <form class="editButton">
+          <button type="button">Edit</button>
+        </form>
+        <span>9 mins</span>
+      </footer>
+    </article>
+  </body>
+</html>
